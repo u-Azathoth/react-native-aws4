@@ -1,0 +1,80 @@
+{
+  "name": "react-native-aws4",
+  "version": "1.0.0",
+  "description":
+    "Signs and prepares requests using AWS Signature Version 4 in React Native Apps",
+  "author":
+    "Nikolay Veretelnik <nikolay.veretelnik@gmail.com> (http://github.com/NikolasVer)",
+  "main": "aws4.js",
+  "keywords": [
+    "amazon",
+    "aws",
+    "signature",
+    "s3",
+    "ec2",
+    "autoscaling",
+    "cloudformation",
+    "elasticloadbalancing",
+    "elb",
+    "elasticbeanstalk",
+    "cloudsearch",
+    "dynamodb",
+    "kinesis",
+    "lambda",
+    "glacier",
+    "sqs",
+    "sns",
+    "iam",
+    "sts",
+    "ses",
+    "swf",
+    "storagegateway",
+    "datapipeline",
+    "directconnect",
+    "redshift",
+    "opsworks",
+    "rds",
+    "monitoring",
+    "cloudtrail",
+    "cloudfront",
+    "codedeploy",
+    "elasticache",
+    "elasticmapreduce",
+    "elastictranscoder",
+    "emr",
+    "cloudwatch",
+    "mobileanalytics",
+    "cognitoidentity",
+    "cognitosync",
+    "cognito",
+    "containerservice",
+    "ecs",
+    "appstream",
+    "keymanagementservice",
+    "kms",
+    "config",
+    "cloudhsm",
+    "route53",
+    "route53domains",
+    "logs",
+    "react",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NikolasVer/react-native-aws4.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  },
+  "scripts": {
+    "test": "mocha ./test/fast.js ./test/slow.js -b -t 100s -R list"
+  },
+  "dependencies": {
+    "querystring-browser": "^1.0.4"
+  }
+}
